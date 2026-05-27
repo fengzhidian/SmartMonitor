@@ -1,0 +1,288 @@
+QWidget {
+    background-color: #0d1117;
+    color: #e0e0e0;
+    font-family: "Microsoft YaHei", Arial, sans-serif;
+    font-size: 13px;
+}
+
+QWidget#top_bar {
+    background-color: #111922;
+    border-bottom: 2px solid #00bcd4;
+}
+
+QWidget#bottom_bar {
+    background-color: #111922;
+    border-top: 1px solid #1e2d3d;
+}
+
+QLabel#title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #00bcd4;
+    padding: 0px 10px 0px 0px;
+}
+
+QLabel#subtitle {
+    font-size: 11px;
+    color: #4a6a8a;
+    padding: 18px 0px 0px 0px;
+    letter-spacing: 2px;
+}
+
+QWidget#btn_group {
+    background-color: transparent;
+}
+
+QPushButton#nav_btn {
+    background-color: transparent;
+    color: #b0c0d0;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+QPushButton#nav_btn:hover {
+    background-color: #1a2a3a;
+    color: #00bcd4;
+    border: 1px solid #00bcd4;
+}
+
+QPushButton#nav_btn:pressed {
+    background-color: #00bcd4;
+    color: #0d1117;
+}
+
+QWidget#user_box {
+    background-color: transparent;
+    margin-left: 20px;
+}
+
+QLabel#avatar {
+    background-color: #1a2a3a;
+    border-radius: 18px;
+    font-size: 18px;
+    color: #00bcd4;
+}
+
+QLabel#username {
+    color: #e0e0e0;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+QPushButton#btn_logout {
+    background-color: transparent;
+    color: #8a9aaa;
+    border: 1px solid #2a3a4a;
+    border-radius: 4px;
+    padding: 6px 14px;
+    font-size: 12px;
+}
+
+QPushButton#btn_logout:hover {
+    background-color: #3a1a1a;
+    color: #ff6b6b;
+    border: 1px solid #ff6b6b;
+}
+
+QWidget#left_panel {
+    background-color: #111922;
+    border-right: 1px solid #1e2d3d;
+}
+
+QWidget#right_panel {
+    background-color: #0d1117;
+}
+
+QLabel#panel_title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #00bcd4;
+    padding: 4px 0px;
+}
+
+QFrame#separator {
+    color: #1e2d3d;
+    background-color: #1e2d3d;
+    max-height: 1px;
+}
+
+QListWidget#device_list {
+    background-color: #0d1117;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    padding: 4px;
+}
+
+QListWidget#device_list::item {
+    background-color: #161b22;
+    color: #b0c0d0;
+    padding: 12px 14px;
+    margin: 2px 0px;
+    border-radius: 6px;
+    border: 1px solid #1e2d3d;
+    font-size: 13px;
+}
+
+QListWidget#device_list::item:hover {
+    background-color: #1a2a3a;
+    color: #00bcd4;
+    border: 1px solid #00bcd4;
+}
+
+QListWidget#device_list::item:selected {
+    background-color: #0d2a3a;
+    color: #00e5ff;
+    border: 1px solid #00bcd4;
+}
+
+QWidget#device_info {
+    background-color: #161b22;
+    border-radius: 6px;
+    border: 1px solid #1e2d3d;
+}
+
+QLabel#info_label {
+    color: #00e676;
+    font-size: 12px;
+    padding: 2px 0px;
+}
+
+QLabel#info_label_warn {
+    color: #ff9100;
+    font-size: 12px;
+    padding: 2px 0px;
+}
+
+QLabel#resolution_label {
+    color: #00e676;
+    font-size: 12px;
+    background-color: #0d2a1a;
+    padding: 4px 10px;
+    border-radius: 10px;
+    border: 1px solid #00e676;
+}
+
+QLabel#video_placeholder {
+    background-color: #0a0e14;
+    color: #2a3a4a;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px dashed #1e2d3d;
+    border-radius: 8px;
+}
+
+QWidget#control_bar {
+    background-color: #111922;
+    border-radius: 6px;
+    border: 1px solid #1e2d3d;
+}
+
+QPushButton#ctrl_btn {
+    background-color: #161b22;
+    color: #b0c0d0;
+    border: 1px solid #1e2d3d;
+    border-radius: 4px;
+    padding: 8px 20px;
+    font-size: 13px;
+}
+
+QPushButton#ctrl_btn:hover {
+    background-color: #00bcd4;
+    color: #0d1117;
+    border: 1px solid #00bcd4;
+}
+
+QPushButton#ptz_btn {
+    background-color: #161b22;
+    color: #00bcd4;
+    border: 1px solid #1e2d3d;
+    border-radius: 18px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+QPushButton#ptz_btn:hover {
+    background-color: #00bcd4;
+    color: #0d1117;
+    border: 1px solid #00bcd4;
+}
+
+QLabel#ptz_label {
+    color: #8a9aaa;
+    font-size: 12px;
+}
+
+QLabel#status_label {
+    color: #6a7a8a;
+    font-size: 12px;
+}
+
+QLabel#time_label {
+    color: #00bcd4;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+QSplitter#main_splitter::handle {
+    background-color: #1e2d3d;
+}
+
+QSplitter#main_splitter::handle:hover {
+    background-color: #00bcd4;
+}
+
+QWidget#channel_bar {
+    background-color: transparent;
+}
+
+QPushButton#view_btn {
+    background-color: #161b22;
+    color: #b0c0d0;
+    border: 1px solid #1e2d3d;
+    border-radius: 4px;
+    padding: 6px 16px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+QPushButton#view_btn:hover {
+    background-color: #1a2a3a;
+    color: #00bcd4;
+    border: 1px solid #00bcd4;
+}
+
+QPushButton#view_btn:checked {
+    background-color: #00bcd4;
+    color: #0d1117;
+    border: 1px solid #00bcd4;
+}
+
+QPushButton#channel_btn {
+    background-color: #161b22;
+    color: #b0c0d0;
+    border: 1px solid #1e2d3d;
+    border-radius: 4px;
+    padding: 6px 16px;
+    font-size: 13px;
+}
+
+QPushButton#channel_btn:hover {
+    background-color: #1a2a3a;
+    color: #00bcd4;
+    border: 1px solid #00bcd4;
+}
+
+QPushButton#channel_btn:checked {
+    background-color: #00bcd4;
+    color: #0d1117;
+    border: 1px solid #00bcd4;
+}
+
+QLabel#channel_label {
+    color: #8a9aaa;
+    font-size: 13px;
+}

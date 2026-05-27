@@ -1,0 +1,151 @@
+QDialog#settings_dialog {
+    background-color: transparent;
+}
+
+QWidget#settings_title_bar {
+    background-color: #0a0a0a;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+QLabel#settings_title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #909090;
+    padding: 0px 0px;
+}
+
+QPushButton#settings_close_btn {
+    background-color: transparent;
+    color: #707070;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+QPushButton#settings_close_btn:hover {
+    background-color: #e81123;
+    color: #ffffff;
+}
+
+QWidget#settings_content {
+    background-color: #0a0a0a;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+QWidget#settings_content QWidget {
+    background-color: transparent;
+}
+
+QFrame#settings_separator {
+    color: #1a1a1a;
+    background-color: #1a1a1a;
+    max-height: 1px;
+}
+
+QLabel#settings_label {
+    color: #909090;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+QLabel#settings_section_title {
+    color: #707070;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 2px 0px;
+}
+
+QLineEdit#settings_edit {
+    background-color: #141414;
+    color: #c0c0c0;
+    border: 1px solid #1a1a1a;
+    border-radius: 4px;
+    padding: 6px 10px;
+    font-size: 13px;
+}
+
+QLineEdit#settings_edit:focus {
+    border: 1px solid #404040;
+}
+
+QComboBox#settings_combo {
+    background-color: #141414;
+    color: #c0c0c0;
+    border: 1px solid #1a1a1a;
+    border-radius: 4px;
+    padding: 6px 10px;
+    font-size: 13px;
+    min-width: 100px;
+}
+
+QComboBox#settings_combo:hover {
+    border: 1px solid #404040;
+}
+
+QComboBox#settings_combo::drop-down {
+    border: none;
+    width: 24px;
+}
+
+QComboBox#settings_combo::down-arrow {
+    image: none;
+    border: none;
+}
+
+QComboBox#settings_combo QAbstractItemView {
+    background-color: #141414;
+    color: #c0c0c0;
+    border: 1px solid #1a1a1a;
+    selection-background-color: #2a2a2a;
+    selection-color: #ffffff;
+    outline: none;
+}
+
+QPushButton#settings_btn {
+    background-color: #141414;
+    color: #808080;
+    border: 1px solid #1a1a1a;
+    border-radius: 4px;
+    padding: 6px 14px;
+    font-size: 13px;
+}
+
+QPushButton#settings_btn:hover {
+    background-color: #1a1a1a;
+    color: #c0c0c0;
+    border: 1px solid #404040;
+}
+
+QPushButton#settings_confirm_btn {
+    background-color: #2a2a2a;
+    color: #c0c0c0;
+    border: 1px solid #3a3a3a;
+    border-radius: 4px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+QPushButton#settings_confirm_btn:hover {
+    background-color: #3a3a3a;
+    color: #ffffff;
+    border: 1px solid #505050;
+}
+
+QPushButton#settings_cancel_btn {
+    background-color: transparent;
+    color: #606060;
+    border: 1px solid #1a1a1a;
+    border-radius: 4px;
+    padding: 8px 20px;
+    font-size: 14px;
+}
+
+QPushButton#settings_cancel_btn:hover {
+    background-color: #1a1a1a;
+    color: #c0c0c0;
+    border: 1px solid #3a3a3a;
+}

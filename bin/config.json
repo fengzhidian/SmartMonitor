@@ -1,0 +1,26 @@
+{
+    "cameras": [
+        {
+            "ChannelId": 1,
+            "cameraName": "HD Webcam",
+            "channelName": "客厅"
+        },
+        {
+            "ChannelId": 2,
+            "cameraName": "virtual camera",
+            "channelName": "门口"
+        },
+        {
+            "ChannelId": 3,
+            "cameraName": "virtual camera",
+            "channelName": "卧室"
+        },
+        {
+            "ChannelId": 4,
+            "cameraName": "virtual camera",
+            "channelName": "厨房"
+        }
+    ],
+    "file_path": "E:/13930/Documents/qtProjects/SmartMonitor/record_videos",
+    "timeInterval": 60
+}

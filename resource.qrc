@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qss/main.qss</file>
+        <file>qss/settings.qss</file>
+        <file>image/bg1.jpeg</file>
+        <file>image/hf.png</file>
+        <file>image/jk1.jpg</file>
+        <file>image/jk2.jpg</file>
+        <file>image/jk3.jpg</file>
+        <file>image/jk4.png</file>
+        <file>image/sxt.png</file>
+        <file>image/sz.png</file>
+        <file>image/td1.png</file>
+        <file>image/td4.png</file>
+        <file>image/yh.png</file>
+    </qresource>
+</RCC>
